@@ -1,0 +1,120 @@
+/* Write your CSS here */
+.bg-container{
+    height:100vh;
+    background: linear-gradient(to right,#ffffff,#cffcf1);
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.heading{
+    font-size: 32px;
+    font-family: "Roboto";
+    color:#0f172a;
+}
+.sub-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width:768px){
+    .sub-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+}
+.timer-container{
+    background-image: url("https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png");
+    height:100px;
+    width:100px;
+
+}
+.timer{
+    background-color: #ffffff;
+    height:50px;
+    width:50px;
+    background-position: center;
+    padding:20px;
+}
+.time{
+    font-size: 24px;
+    font-family: "Roboto";
+    color: #00d9f5;
+}
+.status{
+    font-size: 20px;
+    font-family: "Roboto";
+    color: #1e293b;
+}
+.set-time-container{
+    display: flex;
+    flex-direction: column;
+}
+.symbol{
+    border: 0;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    color:#0f172a;
+    font-size: 18px;
+}
+.set-time{
+    color:#1e293b;
+    font-size: 18px;
+    font-family: "Roboto";
+}
+.time-interval{
+    background: linear-gradient(to left,#defafe,#00d9f5);
+    height:50px;
+    width:100px;
+}
+.timer-sub-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.set-timer{
+    color:#1e293b;
+    font-size: 22px;
+    font-family: "Roboto";
+}
+.play-pause-container{
+    display: flex;
+    justify-content: space-between;
+}
+.play-pause-btn{
+    border: 0;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+.play-pause-img{
+    height:30px;
+    width:30px;
+}
+.play-pause{
+    color:#1e293b;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+.reset-btn{
+    border: 0;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+.reset-image{
+    height:30px;
+    width:30px;
+
+}
+.reset-time{
+    color:#1e293b;
+    font-size: 20px;
+    font-family: "Roboto";
+
+}
+.responsive{
+    display: flex;
+    flex-direction: column;
+}
+
+
